@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h2>Welcome to AppJokes</h2>
+    <h1>About AppJokes</h1>
+    <p>This app displays corny dad jokes</p>
   </div>
 </template>
 
@@ -8,11 +9,11 @@
 export default {
   head() {
     return {
-      title: "Welcome",
+      title: "About The App",
       meta: [
         {
-          hid: "welcome",
-          name: "welcome",
+          hid: "description",
+          name: "description",
           content: "Best place for corny dad jokes"
         }
       ]
@@ -20,3 +21,6 @@ export default {
   }
 };
 </script>
+
+<style>
+</style>
